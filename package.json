@@ -1,0 +1,34 @@
+{
+  "name": "halo2-privacy-frames",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Private withdrawals that pay their own gas: Halo2 proofs checked in EIP-8141 VERIFY frames",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "compile": "node scripts/compile.mjs",
+    "deploy": "tsx scripts/deploy.ts",
+    "e2e": "tsx scripts/e2e.ts",
+    "dev": "npm run dev -w app",
+    "build": "npm run build -w app",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@forshtat/hegota-support": "0.0.1",
+    "poseidon-lite": "^0.3.0",
+    "poseidon-solidity": "^0.0.5",
+    "viem": "^2.57.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "solc": "0.8.28",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  },
+  "workspaces": [
+    "app"
+  ]
+}
