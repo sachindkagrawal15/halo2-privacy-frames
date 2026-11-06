@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>Halo2 Privacy Frames</title>
+  <defs>
+    <radialGradient id="glow" cx="256" cy="290" r="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7cf2c9" stop-opacity="0.14" />
+      <stop offset="1" stop-color="#7cf2c9" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="#0b0d12" />
+  <circle cx="256" cy="290" r="200" fill="url(#glow)" />
+  <!-- The frame: violet above for the VERIFY frame, mint below for the payout (SENDER) frame. -->
+  <g fill="none" stroke-width="20" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M64 152V96a32 32 0 0 1 32-32h56M360 64h56a32 32 0 0 1 32 32v56" stroke="#b39dfa" />
+    <path d="M64 360v56a32 32 0 0 0 32 32h56M360 448h56a32 32 0 0 0 32-32v-56" stroke="#7cf2c9" />
+  </g>
+  <!-- The halo: Halo2. -->
+  <ellipse cx="256" cy="135.5" rx="64" ry="18" fill="none" stroke="#b39dfa" stroke-width="14" />
+  <!-- The ghost: the app's own mark, for privacy. -->
+  <g transform="translate(112 149.5) scale(9)">
+    <path d="M16 3c-6 0-10 4.5-10 10.5V28l3.3-2.4L12.7 28 16 25.6 19.3 28l3.4-2.4L26 28V13.5C26 7.5 22 3 16 3z" fill="#7cf2c9" />
+    <circle cx="12.5" cy="13.5" r="2" fill="#0b0d12" />
+    <circle cx="19.5" cy="13.5" r="2" fill="#0b0d12" />
+  </g>
+</svg>
