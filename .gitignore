@@ -1,0 +1,29 @@
+# toolchain binaries downloaded for this repo (forge, cast, solc, circom...)
+.tools/
+
+# rust
+circuits/target/
+
+# node
+node_modules/
+dist/
+.vite/
+
+# KZG parameters: a public 4 MB download (see README), not committed
+*.srs
+
+# local state with throwaway devnet keys
+.env
+.env.*
+*.state.json
+
+.DS_Store
+
+# app build output
+app/dist/
+
+# the KZG parameters the app serves are committed on purpose (public, 4 MB)
+!app/public/zk/kzg_bn254_15.srs
+
+# local tooling (EF sidecar checkout for running our own alt-mempool node)
+.local/
