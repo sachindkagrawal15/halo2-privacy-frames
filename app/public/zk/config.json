@@ -1,0 +1,25 @@
+{
+  "k": 15,
+  "levels": 20,
+  "params": {
+    "k": 15,
+    "num_advice_per_phase": [
+      3
+    ],
+    "num_fixed": 1,
+    "num_lookup_advice_per_phase": [
+      0,
+      0,
+      0
+    ],
+    "lookup_bits": null,
+    "num_instance_columns": 1
+  },
+  "breakPoints": [
+    [
+      32757,
+      32758
+    ]
+  ],
+  "vkHash": "0x06c3da2fb368582a6a48b0151b5ccf9534a1f173ad04ed1486879aa48c02b323"
+}

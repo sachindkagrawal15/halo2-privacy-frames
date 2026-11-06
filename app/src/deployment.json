@@ -1,0 +1,8 @@
+{
+  "chainId": 1337,
+  "pool": "0x0a7d37e6f58d3e83a5a0655fc5aeec3372e781b6",
+  "verifier": "0x98fe0dbf7a536e5f7559aa24a5af1ed1d956c24d",
+  "poseidon": "0x96918e7cdf8102a53b8b0caa8ee429d4d60179fa",
+  "denomination": "100000000000000000",
+  "deployedAtBlock": 138
+}
